@@ -5,8 +5,8 @@ def rzymskie_na_arabskie(rzymskie):
     if not isinstance(rzymskie, str) or not rzymskie:
         raise ValueError("Niepoprawna liczba rzymska")
 
-    for x in rzymskie:
-        if x not in arabskie_sl or x in ["IIII", "VV","VVVV", "XXXX", "LL","LLLL", "CCCC", "DD", "MMMM"]:
+    for i in rzymskie:
+        if i not in arabskie_sl or i in ["IIII", "VV","VVVV", "XXXX", "LL","LLLL", "CCCC", "DD", "MMMM"]:
             raise ValueError
         
     wartosc = 0 
