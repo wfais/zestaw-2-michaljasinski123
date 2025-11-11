@@ -45,7 +45,6 @@ def rysuj_wielomian_sympy(wejscie):
 
     # Zwracanie wartości na granicach przedziału
     return y_val_sympy[0], y_val_sympy[-1]
-    pass
 
 if __name__ == '__main__':
     # Przykładowe wywołanie pierwszej funkcji
